@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abelando Gonzalo, Mingrone Esteban, Tereszko Emiliano, Petrenko Diomid, Fedor Lapin - DMT2CP - MDW - 24.2</title>
+    <link rel="shortcut icon" href="./assets/logos/logoFavicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg py-0" data-bs-theme="dark">
+      <div class="container-fluid bg-dark px-3 d-flex align-items-center justify-content-between">
+        <h1 class="navbar-brand mb-0"><a href="#" class="navbar-brand">Responsive Sport</a></h1>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPpal" aria-controls="menuPpal" aria-expanded="false" aria-label="Menu Principal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="menuPpal">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#highlights">Nuestros Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#vision">Nuestra Visión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#about">El equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#reviews">Reseñas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-2" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <div id="carousel-banners" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          <figure>
+            <picture>
+              <source media="(max-width: 576px)" srcset="./assets/img/banner/BannerCelular.jpg">
+              <source media="(max-width: 991px)" srcset="./assets/img/banner/BannerTablet.jpg">
+              <img class="w-100 img-fluid" src="./assets/img/banner/BannerPC.jpg" alt="Banner Boca River">
+            </picture>
+          </figure>
+        </div>
+        
+        <div class="carousel-item">
+          <figure>
+            <picture>
+              <source media="(max-width: 576px)" srcset="./assets/img/banner/BannerCelularTP2.jpg">
+              <source media="(max-width: 991px)" srcset="./assets/img/banner/BannerTabletTP2.jpg">
+              <img class="w-100 img-fluid" src="./assets/img/banner/BannerPCTP2.jpg" alt="Banner Responsive Sport">
+            </picture>
+          </figure>
+        </div>
+        
+        <div class="carousel-item">
+          <figure>
+            <picture>
+              <source media="(max-width: 576px)" srcset="./assets/img/banner/argentinaBannerCelu.jpg">
+              <source media="(max-width: 991px)" srcset="./assets/img/banner/argentinaBannerTablet.jpg">
+              <img class="w-100 img-fluid" src="./assets/img/banner/argentinaBannerPC.jpg" alt="Banner Argentina">
+            </picture>
+          </figure>              
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-banners" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-banners" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="highlights" class="highlights">
+      <h2 class="text-center my-4">Nuestros Highlights</h2>
+    
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 container-fluid align-items-center justify-content-center me-0 pe-0">
+        <div class="col">
+          <div class="card h-100 mx-auto">
+            <picture >
+              <source media="(max-width: 576px)" srcset="./assets/img/afa/MessiMobile.jpg">
+              <source media="(max-width: 991px)" srcset="./assets/img/afa/DiseñoMessiTablet.jpg">
+              <img src="./assets/img/afa/DiseñoMessiPC.jpg" class="card-img-top img-fluid" alt="Diseño Messi">
+            </picture>
+            <div class="card-body">
+              <h5 class="card-title">Asociación Argentina de Fútbol</h5>
+              <p class="card-text">Messi y el récord histórico de alcanzar su 8vo balón de oro.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 mx-auto">
+            <picture>
+              <source media="(max-width: 576px)" srcset="./assets/img/boca/DiseñoBocaCelular.jpg">
+              <source media="(max-width: 991px)" srcset="./assets/img/boca/DiseñoBocaTablet.jpg">
+              <img src="./assets/img/boca/DiseñoBocaPC.jpg" class="card-img-top img-fluid" alt="Diseño Boca">
+            </picture>
+            <div class="card-body">
+              <h5 class="card-title">Club Atlético Boca Juniors</h5>
+              <p class="card-text">Conmemoración del aniversario número 119 de Boca Juniors.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 mx-auto">
+            <picture>
+              <source media="(max-width: 576px)" srcset="./assets/img/champions/CLMobile.jpg">
+              <source media="(max-width: 991px)" srcset="./assets/img/champions/DiseñoChampionsLeagueTablet.jpg">
+              <img src="./assets/img/champions/DiseñoChampionsLeaguePC.jpg" class="card-img-top img-fluid" alt="Diseño Champions League">
+            </picture>
+            <div class="card-body">
+              <h5 class="card-title">UEFA Champions League</h5>
+              <p class="card-text">El camino de Inter y Manchester City a la final de la Champions League 2022-23.</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="col">
+          <div class="card h-100 mx-auto">
+            <picture>
+              <source media="(max-width: 576px)" srcset="./assets/img/fifa/DiseñoFifaCelular.jpg">
+              <source media="(max-width: 991px)" srcset="./assets/img/fifa/DiseñoFifaTablet.jpg">
+              <img src="./assets/img/fifa/DiseñoFifaPC.jpg" class="card-img-top img-fluid" alt="Diseño FIFA">
+            </picture>
+            <div class="card-body">
+              <h5 class="card-title">EA SPORTS FIFA</h5>
+              <p class="card-text">Diseño de camisetas para videojuego Ultimate Team de FIFA 17.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>          
+
+    <section id="vision" class="container-fluid my-5 w-100 pt-4">
+      <div class="row text-center">
+        <div class="col">
+          <h2 class="display-4 fw-bold">Diseño Gráfico para el Deporte</h2>
+          <p>Transformamos ideas en experiencias visuales dinámicas y deportivas.</p>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col">
+          <p class="lead">El diseño gráfico en el ámbito deportivo es mucho más que crear logotipos. Es una <b>herramienta poderosa</b> para conectar con los fanáticos, transmitir emociones y construir marcas memorables.</p>
+          <p>A través de colores, tipografías y elementos visuales cuidadosamente seleccionados, el diseño gráfico transmite <em>valores, historias y emociones</em> que resuenan tanto con los atletas como con el público. Es una herramienta estratégica que no solo representa identidades visuales, sino que también fomenta el <em>sentido de pertenencia y pasión</em> que caracteriza al mundo del deporte.</p>
+          <p>Nuestro nombre reside en el denominado <b>diseño web responsive</b>, un enfoque que garantiza que las páginas web sean accesibles y atractivas en cualquier dispositivo, ya sea un teléfono móvil, una tablet o un ordenador. Este principio refleja nuestra filosofía: <em>la capacidad de adaptarnos a las necesidades únicas de cada cliente y proyecto.</em> De la misma manera que un diseño web responsive se ajusta fluidamente a diferentes pantallas, nosotros moldeamos nuestras soluciones para ofrecer resultados personalizados, efectivos y alineados con los objetivos de nuestros clientes.</p>
+          <p>Hemos trabajado con equipos profesionales, marcas deportivas y eventos internacionales, abordando cada proyecto con una <b>pasión</b> y <b>compromiso</b> que buscan superar cualquier expectativa. Desde el diseño de emblemas para equipos hasta campañas visuales para grandes torneos, nuestra experiencia nos permite entender las complejidades del diseño en el ámbito deportivo. <b>Nos especializamos en crear</b> piezas que destacan por su impacto visual, su calidad técnica y su capacidad para conectar con diferentes audiencias.</p>
+          <p>Ya sea que necesites material promocional, gráficos para redes sociales o branding completo, nuestro enfoque combina la creatividad con una estrategia sólida. Cada diseño es cuidadosamente concebido para transmitir un mensaje claro y efectivo, maximizando su alcance y relevancia. Nos aseguramos de que cada elemento visual no solo sea estéticamente atractivo, sino también funcional y alineado con los objetivos de tu marca o evento.</p>
+          <p>Utilizamos las <b>últimas tendencias</b> en diseño y tecnología para garantizar que nuestro trabajo no solo sea innovador, sino también atemporal. Incorporamos herramientas modernas y enfoques creativos para desarrollar piezas visuales que destacan en cualquier plataforma, ya sea impresa o digital. Nuestra obsesión por la calidad y los detalles asegura que cada proyecto refleje <em>profesionalismo y excelencia.</em></p>
+          <p>Creemos que el diseño gráfico tiene el poder de <b>inspirar, motivar y unir</b> comunidades a través de la pasión compartida por el deporte. Al captar la esencia de cada marca, equipo o evento, transformamos ideas en experiencias visuales que generan conexiones emocionales duraderas. Para nosotros, <em>el diseño no es solo estética; es una forma de contar historias y construir vínculos que trascienden fronteras y generaciones.</em></p>
+        </div>
+      </div>
+
+      <div class="row my-4 py-4">
+        <div class="col-12 text-center">
+          <div class="ratio ratio-16x9">
+            <iframe 
+              src="https://www.youtube.com/embed/A-r9sj7zHJ4" 
+              title="YouTube video player" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container my-5">
+      <div class="row text-center mb-5">
+        <div class="col">
+          <h2 class="display-4 fw-bold">¿Qué es Responsive Sport?</h2>
+          <p class="text-muted">
+            Somos una agencia especializada en diseño multimedial aplicada al mundo del deporte. Nos adaptamos a lo que el cliente demande, igual que el diseño responsive se adapta a distintos dispositivos.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 text-center">
+          <picture>
+            <source media="(max-width: 576px)" srcset="./assets/img/fotosNuestras/emilianoCelular.jpg">
+            <source media="(max-width: 991px)" srcset="./assets/img/fotosNuestras/emilianoTablet.jpg">
+            <img src="./assets/img/fotosNuestras/emilianoPC.png" class="img-fluid rounded-circle shadow" alt="Emiliano Tereszko">
+          </picture>
+        </div>
+        <div class="col-md-8 pt-4 text-center text-md-start">
+          <h3 class="fw-bold">Emiliano Tereszko</h3>
+          <p class="text-muted">
+            Especialista en diseño multimedial desde 2024, trabajando con clientes a nivel mundial. Se adapta a cada proyecto, ofreciendo calidad y creatividad en cada diseño.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 text-center order-md-2">
+          <picture>
+            <source media="(max-width: 576px)" srcset="./assets/img/fotosNuestras/gonzaloCelular.jpg">
+            <source media="(max-width: 991px)" srcset="./assets/img/fotosNuestras/gonzaloTablet.jpg">
+            <img src="./assets/img/fotosNuestras/gonzaloPC.png" class="img-fluid rounded-circle shadow" alt="Gonzalo Abelando">
+          </picture>
+        </div>
+        <div class="col-md-8 order-md-1 text-center text-md-start ">
+          <h3 class="fw-bold">Gonzalo Abelando</h3>
+          <p class="text-muted">
+            Con una pasión compartida por el diseño y el fútbol, Gonzalo lidera proyectos que potencian la imagen de instituciones deportivas y marcas destacadas en el sector.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 text-center">
+          <picture>
+            <source media="(max-width: 576px)" srcset="./assets/img/fotosNuestras/estebanCelular.jpg">
+            <source media="(max-width: 991px)" srcset="./assets/img/fotosNuestras/estebanTablet.jpg">
+            <img src="./assets/img/fotosNuestras/estebanPC.png" class="img-fluid rounded-circle shadow" alt="Esteban Mingrone">
+          </picture>
+        </div>
+        <div class="col-md-8 pt-4 pt-md-0 text-center text-md-start">
+          <h3 class="fw-bold">Esteban Mingrone</h3>
+          <p class="text-muted">
+            Con experiencia en proyectos de alto nivel, Esteban ha trabajado con marcas como la Premier League y EA Sports, llevando la creatividad a nuevos niveles.
+          </p>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 text-center order-md-2">
+          <picture>
+            <source media="(max-width: 576px)" srcset="./assets/img/fotosNuestras/DiomidOriginalPC.jpg">
+            <source media="(max-width: 991px)" srcset="./assets/img/fotosNuestras/DiomidOriginalPC.jpg">
+            <img src="./assets/img/fotosNuestras/Diomidsinfondopc.jpg" class="img-fluid rounded-circle shadow" alt="Diomid Petrenko">
+          </picture>
+        </div>
+        <div class="col-md-8 order-md-1 pt-4 pt-md-0 text-center text-md-start">
+          <h3 class="fw-bold">Diomid Petrenko</h3>
+          <p class="text-muted">
+            Como estudiante de Diseño Multimedial, disfruta colaborando en proyectos que combinen creatividad y tecnología. Su objetivo es dejar una huella en cada pieza que desarrolla.
+          </p>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 text-center">
+          <picture>
+            <source media="(max-width: 576px)" srcset="./assets/img/fotosNuestras/LapinOriginalPC.jpg">
+            <source media="(max-width: 991px)" srcset="./assets/img/fotosNuestras/LapinOriginalPC.jpg">
+            <img src="./assets/img/fotosNuestras/lapinsinfondopc.jpg" class="img-fluid rounded-circle shadow" alt="Lapin Fedor">
+          </picture>
+        </div>
+        <div class="col-md-8 pt-4 pt-md-0">
+          <h3 class="fw-bold text-center text-md-start">Lapin Fedor</h3>
+          <p class="text-muted text-center text-md-start">
+            Ha trabajado en proyectos que integran video, diseño y storytelling para comunicar mensajes claros y efectivos. Además, le encanta explorar tendencias en redes sociales y utilizarlas para inspirar sus creaciones.
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <section id="reviews" class="clients py-3">
+      <div class="container">
+        <h2 class="text-center p-4 text-light">Nuestros Clientes</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/AdidasS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/AdidasM.png">
+                <img src="./assets/img/escudos_monocromaticos/AdidasL.png" class="img-fluid" alt="Adidas">
+              </picture>
+            </figure>
+          </div>
+    
+          <div class="col-3 col-lg-2 text-center">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/AfaS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/AfaM.png">
+                <img src="./assets/img/escudos_monocromaticos/AfaL.png" class="img-fluid" alt="AFA">
+              </picture>
+            </figure>
+          </div>
+    
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/BarcelonaS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/BarcelonaM.png">
+                <img src="./assets/img/escudos_monocromaticos/BarcelonaL.png" class="img-fluid" alt="Barcelona FC">
+              </picture>
+            </figure>
+          </div>
+    
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/BocaS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/BocaM.png">
+                <img src="./assets/img/escudos_monocromaticos/BocaL.png" class="img-fluid" alt="Boca Juniors">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/ChampionsS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/ChampionsM.png">
+                <img src="./assets/img/escudos_monocromaticos/ChampionsL.png" class="img-fluid" alt="UEFA Champions League">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/CityS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/CityM.png">
+                <img src="./assets/img/escudos_monocromaticos/CityL.png" class="img-fluid" alt="Manchester City">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/EasportsS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/EasportsM.png">
+                <img src="./assets/img/escudos_monocromaticos/EasportsL.png" class="img-fluid" alt="EA Sports">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3  col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/FifaS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/FifaM.png">
+                <img src="./assets/img/escudos_monocromaticos/FifaL.png" class="img-fluid" alt="FIFA">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/IndependienteS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/IndependienteM.png">
+                <img src="./assets/img/escudos_monocromaticos/IndependienteL.png" class="img-fluid" alt="C.A. Independiente">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/InterS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/InterM.png">
+                <img src="./assets/img/escudos_monocromaticos/InterL.png" class="img-fluid" alt="Inter">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/LibertadoresS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/LibertadoresM.png">
+                <img src="./assets/img/escudos_monocromaticos/LibertadoresL.png" class="img-fluid" alt="Copa Libertadores">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/LpfS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/LpfM.png">
+                <img src="./assets/img/escudos_monocromaticos/LpfL.png" class="img-fluid" alt="Liga Profesional de Futbol">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/MiamiS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/MiamiM.png">
+                <img src="./assets/img/escudos_monocromaticos/MiamiL.png" class="img-fluid" alt="Inter Miami">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/PumaS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/PumaM.png">
+                <img src="./assets/img/escudos_monocromaticos/PumaL.png" class="img-fluid" alt="Puma">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/MadridS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/MadridM.png">
+                <img src="./assets/img/escudos_monocromaticos/MadridL.png" class="img-fluid" alt="Real Madrid">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/RacingS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/RacingM.png">
+                <img src="./assets/img/escudos_monocromaticos/RacingL.png" class="img-fluid" alt="Racing Club">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/RiverS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/RiverM.png">
+                <img src="./assets/img/escudos_monocromaticos/RiverL.png" class="img-fluid" alt="River Plate">
+              </picture>
+            </figure>
+          </div>
+
+          <div class="col-3 col-lg-2">
+            <figure>
+              <picture>
+                <source media="(max-width: 576px)" srcset="./assets/img/escudos_monocromaticos/SudamericanaS.png">
+                <source media="(max-width: 991px)" srcset="./assets/img/escudos_monocromaticos/SudamericanaM.png">
+                <img src="./assets/img/escudos_monocromaticos/SudamericanaL.png" class="img-fluid" alt="Sudamericana">
+              </picture>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <section class="reviews p-4">
+        <div class="accordion" id="accordionReviews">
+          <h2 class="text-center text-white mb-3">Nuestros Clientes dicen</h2>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Boca Juniors
+              </button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionReviews">
+              <div class="accordion-body review-bg-boca">
+                <div class="review-body">
+                  <p>"El trabajo que realizó Responsive Sport estuvo a la altura de la institución. Diseñaron nuestra nueva camiseta que refleja la esencia de Boca Juniors, agregándole un toque de modernidad. La calidad y el detalle en cada aspecto del diseño son realmente notables."</p>
+                  <h4><em>Manuel Calabró, Director de Marketing de Boca Juniors</em></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                C.A. Independiente
+              </button>
+            </h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionReviews">
+              <div class="accordion-body review-bg-independiente">
+                <div class="review-body">
+                  <p>"Llamar a Responsive Sport para renovar nuestra imagen fue una excelente decisión. Su trabajo mejoró notablemente el diseño de nuestra imagen, aportando frescura e innovación a la identidad de Independiente. Con su trabajo elevaron la calidad visual en todos los aspectos."</p>
+                  <h4><em>Juan Macaño, Director de Marketing de C.A. Independiente</em></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Racing Club
+              </button>
+            </h3>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionReviews">
+              <div class="accordion-body review-bg-racing">
+                <div class="review-body">
+                  <p>"En Racing Club buscamos diferenciarnos en todos los ámbitos, y la imagen del club no es menor. La empresa entendió perfectamente lo que queríamos, teniendo presente cada detalle de la historia del club y dándole un valor importante en cada diseño."</p>
+                  <h4><em>Jorge López, Director de Marketing de Racing Club</em></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+      
+    <section id="contact">
+      <div class="container my-5">
+        <h2 class="text-center mb-4">Formulario de Contacto</h2>
+        <form action="./form/contactForm.php" method="POST" class="needs-validation" enctype="multipart/form-data" novalidate>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Ingresa tu nombre..." required>
+            <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+          </div>
+    
+          <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Ingresa tu apellido..." required>
+            <div class="invalid-feedback">Por favor, ingresa tu apellido.</div>
+          </div>
+    
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa un mail de contacto..." required>
+            <div class="invalid-feedback">Por favor, ingresa un correo electrónico válido.</div>
+          </div>
+    
+          <div class="mb-3">
+            <label for="comentarios" class="form-label">Comentarios</label>
+            <textarea class="form-control" id="textBox" name="textBox" rows="4" placeholder="Cuentanos en que podemos ayudarte..." required></textarea>
+            <div class="invalid-feedback">Por favor, escribe un comentario.</div>
+          </div>
+    
+          <div class="text-center">
+              <button type="submit" class="btn">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row text-center text-md-start align-items-center">
+        <div class="col-12 col-md-4 mb-3 mb-md-0">
+          <h5 class="text-uppercase">Diseñado y Desarrollado por:</h5>
+          <p class="mb-1">Abelando Gonzalo</p>
+          <p class="mb-1">Tereszko Emiliano</p>
+          <p class="mb-1">Diomid Petrenko</p>
+          <p class="mb-1">Lapin Fedor</p>
+          <p>Mingrone Esteban</p>
+        </div>
+    
+        <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+          <a href="#">
+            <picture>
+                <source media="(max-width: 576px)" srcset="./assets/logos/ResponsiveLogoBlancoCelular.png">
+                <source media="(max-width: 991px)" srcset="./assets/logos/ResponsiveLogoBlancoTablet.png">
+                <img src="./assets/logos/ResponsiveLogoBlancoPC.png" alt="Logo" class="img-fluid">
+            </picture>
+          </a>
+        </div>
+    
+        <div class="col-12 col-md-4">
+          <h5 class="text-uppercase text-center">Seguínos:</h5>
+          <div class="social-media">
+            <a href="https://www.instagram.com/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                </svg>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg>
+            </a>
+            <a href="https://www.behance.net/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-behance" viewBox="0 0 16 16">
+                <path d="M4.654 3c.461 0 .887.035 1.278.14.39.07.711.216.996.391s.497.426.641.747c.14.32.216.711.216 1.137 0 .496-.106.922-.356 1.242-.215.32-.566.606-.997.817.606.176 1.067.496 1.348.922s.461.957.461 1.563c0 .496-.105.922-.285 1.278a2.3 2.3 0 0 1-.782.887c-.32.215-.711.39-1.137.496a5.3 5.3 0 0 1-1.278.176L0 12.803V3zm-.285 3.978c.39 0 .71-.105.957-.285.246-.18.355-.497.355-.887 0-.216-.035-.426-.105-.567a1 1 0 0 0-.32-.355 1.8 1.8 0 0 0-.461-.176c-.176-.035-.356-.035-.567-.035H2.17v2.31c0-.005 2.2-.005 2.2-.005zm.105 4.193c.215 0 .426-.035.606-.07.176-.035.356-.106.496-.216s.25-.215.356-.39c.07-.176.14-.391.14-.641 0-.496-.14-.852-.426-1.102-.285-.215-.676-.32-1.137-.32H2.17v2.734h2.305zm6.858-.035q.428.427 1.278.426c.39 0 .746-.106 1.032-.286q.426-.32.53-.64h1.74c-.286.851-.712 1.457-1.278 1.848-.566.355-1.243.566-2.06.566a4.1 4.1 0 0 1-1.527-.285 2.8 2.8 0 0 1-1.137-.782 2.85 2.85 0 0 1-.712-1.172c-.175-.461-.25-.957-.25-1.528 0-.531.07-1.032.25-1.493.18-.46.426-.852.747-1.207.32-.32.711-.606 1.137-.782a4 4 0 0 1 1.493-.285c.606 0 1.137.105 1.598.355.46.25.817.532 1.102.958.285.39.496.851.641 1.348.07.496.105.996.07 1.563h-5.15c0 .58.21 1.11.496 1.396m2.24-3.732c-.25-.25-.642-.391-1.103-.391-.32 0-.566.07-.781.176s-.356.25-.496.39a.96.96 0 0 0-.25.497c-.036.175-.07.32-.07.46h3.196c-.07-.526-.25-.882-.497-1.132zm-3.127-3.728h3.978v.957h-3.978z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4 subject">
+        <div class="col text-center">
+          <p class="mb-0">Diseño Multimedial | DMT2CP</p>
+          <p class="mb-0">Escuela Davinci - 2024</p>
+        </div>
+      </div>
+    </div>
+  </footer> 
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

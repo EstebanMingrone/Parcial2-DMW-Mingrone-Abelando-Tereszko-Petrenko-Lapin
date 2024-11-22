@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'A2 Gothic';
+}
+
+h5{
+  color: #1db954;
+}
+
+/* Nav */
+nav h1 a{
+  background-image: url("./assets/logos/ResponsiveLogoBlancoPC.png");
+  background-size: cover;
+  display: block;
+  height: 88px;
+  width: 88px;
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1db954;
+}
+
+/* Cards */
+.card{
+  max-width: 20rem;
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin: 0 auto;
+  }
+}
+
+.card-body{
+  background-color: #1db954;
+  color: white;
+  text-align: center;
+}
+
+/* Main */
+#vision {
+  background-image: url("./assets/img/fondos/FondoPC.jpg");
+  background-size: cover; 
+  background-position: center center;  
+  background-repeat: no-repeat;  
+  color: white;
+  width: 100%;
+}
+
+.clients{
+  background-color: #1db954;
+}
+
+/* Acordeón */
+.accordion-body {
+  position: relative;
+  padding: 30px;
+  color: white;  
+}
+
+.accordion-button {
+  background-color: #2d2d2d !important; 
+  color: white !important; 
+}
+
+.accordion-button:not(.collapsed) {
+background-color: #444444 !important; 
+color: white !important;
+}
+
+.accordion-button:focus {
+box-shadow: none; 
+}
+  
+.review-bg-boca {
+  background-image: url('./assets/img/fotosdePerfil/rsbocapc.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.review-bg-independiente {
+  background-image: url('./assets/img/fotosdePerfil/rscaipc.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.review-bg-racing {
+  background-image: url('./assets/img/fotosdePerfil/rsracingpc.jpg');
+  background-size: cover;
+  background-position: center;
+}
+  
+.accordion-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.review-body {
+  position: relative;
+  z-index: 2;
+}
+
+/* Formulario */
+#contact{
+  background-color: #2d2d2d ;
+  padding: 10px;
+  color: white;
+}
+
+.btn{
+  background-color: #1db954;
+  padding: 10px;
+  width: 10rem;
+  margin-top: 5px;
+}
+
+.btn:hover{
+  background-color: #16823b;
+}
+
+/* Footer */
+footer{
+  background-color: #212121;
+  color: #f8f8f8;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: center;
+  font-size: .8em;
+  align-items: center;
+  padding: 1.5rem;
+  border-top: #1db954 solid 3px;
+  width: 100%;
+}
+
+footer .subject{
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: #1db954 solid 2px;
+}
+
+.social-media {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-media svg{
+  width: 2rem;
+  height: 2rem;
+  fill: #f8f8f8;
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.social-media svg:hover{
+  fill: #1db954;
+  transform: scale(1.2);
+}
+
+footer img{
+  width: 10rem;
+}
+
+/* Ajustes Acordeon */
+@media (max-width: 576px) {
+  .review-bg-boca {
+    background-image: url('./assets/img/fotosdePerfil/PerfilBocaCelu-min.png');
+  }
+  .review-bg-independiente {
+    background-image: url('./assets/img/fotosdePerfil/PerfilIndependienteCelu-min.png');
+  }
+  .review-bg-racing {
+    background-image: url('./assets/img/fotosdePerfil/PerfilRacingCelu-min.png');
+  }
+}
