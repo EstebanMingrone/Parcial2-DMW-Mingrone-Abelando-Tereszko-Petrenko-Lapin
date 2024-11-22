@@ -11,7 +11,7 @@ h5{
 
 /* Nav */
 nav h1 a{
-  background-image: url("./assets/logos/ResponsiveLogoBlancoPC.png");
+  background-image: url("../assets/logos/ResponsiveLogoBlancoPC.png");
   background-size: cover;
   display: block;
   height: 88px;
@@ -48,7 +48,7 @@ nav h1 a{
 
 /* Main */
 #vision {
-  background-image: url("./assets/img/fondos/FondoPC.jpg");
+  background-image: url("../assets/img/fondos/FondoPC.jpg");
   background-size: cover; 
   background-position: center center;  
   background-repeat: no-repeat;  
@@ -82,19 +82,19 @@ box-shadow: none;
 }
   
 .review-bg-boca {
-  background-image: url('./assets/img/fotosdePerfil/rsbocapc.jpg');
+  background-image: url('../assets/img/fotosdePerfil/rsbocapc.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .review-bg-independiente {
-  background-image: url('./assets/img/fotosdePerfil/rscaipc.jpg');
+  background-image: url('../assets/img/fotosdePerfil/rscaipc.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .review-bg-racing {
-  background-image: url('./assets/img/fotosdePerfil/rsracingpc.jpg');
+  background-image: url('../assets/img/fotosdePerfil/rsracingpc.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -181,12 +181,12 @@ footer img{
 /* Ajustes Acordeon */
 @media (max-width: 576px) {
   .review-bg-boca {
-    background-image: url('./assets/img/fotosdePerfil/PerfilBocaCelu-min.png');
+    background-image: url('../assets/img/fotosdePerfil/PerfilBocaCelu-min.png');
   }
   .review-bg-independiente {
-    background-image: url('./assets/img/fotosdePerfil/PerfilIndependienteCelu-min.png');
+    background-image: url('../assets/img/fotosdePerfil/PerfilIndependienteCelu-min.png');
   }
   .review-bg-racing {
-    background-image: url('./assets/img/fotosdePerfil/PerfilRacingCelu-min.png');
+    background-image: url('../assets/img/fotosdePerfil/PerfilRacingCelu-min.png');
   }
 }
